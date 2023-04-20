@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_id1"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Tên SP"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edit_id2"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Loai SP"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edit_id3"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Giá SP"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edit_id4"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="Ảnh SP"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/edit_id5"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="ID Sản Phẩm"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="dang ky"
+        android:onClick="senData"
+        android:layout_height="wrap_content"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
